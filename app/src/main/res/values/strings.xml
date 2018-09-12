@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Privalia</string>
+    <string name="year">year</string>
+    <string name="title">title</string>
+    <string name="ok">OK</string>
+    <string name="problem_occured">Problem occured</string>
+    <string name="no_internet_connexion">No Internet Connexion</string>
+    <string name="search">Search</string>
+</resources>
