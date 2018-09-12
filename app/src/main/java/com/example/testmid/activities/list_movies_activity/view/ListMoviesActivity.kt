@@ -110,7 +110,7 @@ class ListMoviesActivity : AppCompatActivity(), ViewInterface, WsCallInterface {
                 Log.e("serch", newText)
                 searchedKeyword = newText
                 adapter.search(searchedKeyword, defaultMovies)
-                if (adapter.items.size <= 1) {
+                if (adapter.items.size <= 1 && !isLoading) {
                     presenter.getMovies(page)
                     isLoading = true
                 }
