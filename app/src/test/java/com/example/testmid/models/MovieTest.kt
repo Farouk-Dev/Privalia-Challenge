@@ -28,7 +28,7 @@ class MovieTest {
 
     @Test
     fun getYear() {
-        Assert.assertEquals("year",movie.release_date)
+        Assert.assertEquals("date",movie.release_date)
     }
 
     @Test
